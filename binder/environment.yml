@@ -1,5 +1,6 @@
 channels:
 - conda-forge
+- pyviz
 dependencies:
 # Jupyter
 - jupyterlab=1.0

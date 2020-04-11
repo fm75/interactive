@@ -29,3 +29,6 @@ dependencies:
 - panel
 # voila
 - voila=0.0.6
+# App
+packages:
+- jupyter_panel_proxy

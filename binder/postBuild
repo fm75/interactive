@@ -9,4 +9,4 @@ jupyter serverextension enable --sys-prefix nbserverproxy
 # panel launches at startup
 cp panelserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable panel extension
-# jupyter serverextension enable --sys-prefix panelserverextension
+jupyter serverextension enable --sys-prefix panelserverextension

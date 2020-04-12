@@ -1,6 +1,5 @@
 channels:
 - conda-forge
-- pyviz
 dependencies:
 # Jupyter
 - jupyterlab=1.0
@@ -30,10 +29,10 @@ dependencies:
 # voila
 - voila=0.0.6
 # App
-- nbserverproxy
-- pyviz::param=1.9.0
-- pyviz::pyviz_comms=0.7.2
-- pyviz::datashader
-- bokeh::bokeh
-- pyviz::panel=0.5.1
-- tornado<6  
+#- nbserverproxy
+#- pyviz::param=1.9.0
+#- pyviz::pyviz_comms=0.7.2
+#- pyviz::datashader
+#- bokeh::bokeh
+#- pyviz::panel=0.5.1
+#- tornado<6  

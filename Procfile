@@ -1,1 +1,1 @@
-web: panel serve --address="0.0.0.0" --port=$PORT panel-exp.ipynb --allow-websocket-origin=panel-exp.herokuapp.com
+web: panel serve --address="0.0.0.0" --port=$PORT panel-exp.ipynb --allow-websocket-origin=ancient-gorge-86646.herokuapp.com

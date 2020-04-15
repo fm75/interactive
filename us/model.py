@@ -15,9 +15,10 @@ def update_stats(state:str, date: dt.date) -> pd.DataFrame:
 
 def update_counties(state: str, date: dt.date, column: str, ascending: bool) -> pd.DataFrame:
     global df
-    df = pd.read_csv(county_file_name(state))
-    return df.sort_values(by=column, 
+    df = pd.read_csv(county_file_name(state), index_col=False)
+    df = df.sort_values(by=column, 
         ascending=ascending)[['county', 'pop2019']].style.format({"pop2019": "{:,.0f}",})
+    return df.hide_index()
 
 def states() -> List[str]:
     return list(pd.read_csv('data/us-states-only.csv').state)
